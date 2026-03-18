@@ -1,0 +1,124 @@
+body {
+    color: var(--text);
+    background: #fff;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+h2::after {
+    content: '';
+    width: 70px;
+    height: 3px;
+    background: var(--primary);
+    display: block;
+    margin: 10px auto 0;
+}
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url("../images/banner1.jpg") center/cover no-repeat;
+}
+
+.banner h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+#about p {
+    max-width: 900px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+#about ul {
+    max-width: 600px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+#about ul li {
+    margin-bottom: 8px;
+}
+#services .card {
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    background: #fff;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    height: 100%;
+}
+
+#services .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+#services .card h5 {
+    color: var(--primary);
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+#rights ul {
+    max-width: 500px;
+    margin: auto;
+    padding: 0;
+}
+
+#rights ul li {
+    list-style: none;
+    background: #fff;
+    margin: 12px 0;
+    padding: 14px;
+    border-left: 5px solid var(--primary);
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+#membership {
+    background: linear-gradient(135deg, #ff3c00, #ff7b00);
+    color: #fff;
+}
+
+#membership h2 {
+    color: #fff;
+}
+
+#membership button {
+    background: #fff;
+    color: var(--primary);
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#membership button:hover {
+    background: #000;
+    color: #fff;
+}
+#contact .container {
+    max-width: 600px;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+footer {
+    background: var(--dark);
+    color: #ccc;
+    font-size: 0.9rem;
+}

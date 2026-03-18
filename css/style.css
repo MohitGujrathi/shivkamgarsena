@@ -1,0 +1,32 @@
+
+.navbar{
+    transition: all 0.4s;
+}
+
+.transparent-navbar{
+    background: transparent;
+}
+
+/* .scrolled-navbar{
+    background: black;
+} */
+
+/* Carousel full screen */
+.carousel-item{
+    height: 100vh;
+}
+
+.carousel-item img{
+    object-fit: cover;
+    height: 100vh;
+}
+
+/* Banner text */
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
